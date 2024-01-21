@@ -18,7 +18,7 @@ const Navbar = () => {
     <div>
         <nav className="navbar navbar-expand-lg" style={{backgroundColor:'#1F618D'}}>
             <div className="container">
-                <Link to="/" className="navbar-brand"><img src={blog_logo} alt='blog_logo' width="55px" height="55px" /></Link>
+                <Link to="/web-blog-app" className="navbar-brand"><img src={blog_logo} alt='blog_logo' width="55px" height="55px" /></Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>

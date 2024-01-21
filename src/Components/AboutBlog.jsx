@@ -2,7 +2,7 @@ import React from 'react'
 
 const AboutBlog = () => {
   return (
-    <div className='' >
+    <div>
         <div className='card' style={{backgroundColor:"#CFF4FFFF"}}>
             
                 <div className='card-title'>

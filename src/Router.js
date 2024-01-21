@@ -18,11 +18,11 @@ const Router = () => {
   return (
     <div>
     <ToastContainer theme="colored"></ToastContainer>
-      <BrowserRouter>
+      <BrowserRouter basename="/web-blog-app">
       <Navbar />
      
         <Routes>
-        <Route exact path="/" element={<AboutBlog />}/>
+        <Route exact path="/web-blog-app" element={<AboutBlog />}/>
         <Route exact path="/Home" element={<Home />}/>
         <Route exact path="/CreateAccount" element={<CreateAccount />} />
         <Route exact path="/CreateBlog" element={<CreateBlog />}/>
