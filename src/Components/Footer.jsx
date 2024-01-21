@@ -57,7 +57,7 @@ function Footer() {
                           <h6 className='text-white'>USEFUL LINKS</h6>
                           <li><Link to='/CreateBlog'>Create Blog</Link></li>
                           <li><Link to='/ContactUs'> Contactus</Link></li>
-                          <li><Link to='/web-blog-app'>About</Link></li>
+                          <li><Link to='/'>About</Link></li>
                           <li><Link to='/Home'>Home</Link></li>
                          </ul>
                       </div>

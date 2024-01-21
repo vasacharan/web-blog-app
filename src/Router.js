@@ -22,7 +22,7 @@ const Router = () => {
       <Navbar />
      
         <Routes>
-        <Route exact path="/web-blog-app" element={<AboutBlog />}/>
+        <Route exact path="/" element={<AboutBlog />}/>
         <Route exact path="/Home" element={<Home />}/>
         <Route exact path="/CreateAccount" element={<CreateAccount />} />
         <Route exact path="/CreateBlog" element={<CreateBlog />}/>
