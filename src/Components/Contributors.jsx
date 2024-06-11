@@ -16,7 +16,6 @@ const Contributors = () => {
 
               Relevant Qualification: Bachelor of Computer Science <br/>
 
-
               <h6>Personal Desire:</h6> I wanted to learn and gain good command on Frontend and Backend technologies.
               
           </div>
