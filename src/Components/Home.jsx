@@ -11,7 +11,9 @@ const [blogData, setBlogData] = useState(null);
     // console.log(JSON.stringify(userProfile?.data.name));
     async function fetchData(){
       //fetching data from API
-    fetch(url).then(resp=>resp.json())
+    fetch(url,{
+      headers : "Access-Control-Allow-Origin: *"
+    }).then(resp=>resp.json())
     .then(response=>setBlogData(response));
 
     }
